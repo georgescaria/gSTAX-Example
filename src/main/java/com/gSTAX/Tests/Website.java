@@ -12,13 +12,13 @@ public class Website extends InitialSetup
     public void AmazonTest() throws Exception
     {
         String title = driver.getTitle();
-        Report.pass(title);
+        Report.pass("Log");
         Report.passWithScreenshot();
-        Report.passWithScreenshot(title);
-        Report.takeScreenshot(title);
-        Report.fail(title);
+        Report.passWithScreenshot("Log");
+        Report.takeScreenshot("Log");
+        Report.fail("Log");
         Report.failWithScreenshot();
-        Report.failWithScreenshot(title);
+        Report.failWithScreenshot("Log");
     }
 }
 

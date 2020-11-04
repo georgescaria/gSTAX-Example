@@ -19,9 +19,9 @@
 	<dependencies>
 
 	<dependency>
-	    <groupId>com.github.gscaria1</groupId>
+	    <groupId>com.gSTAX</groupId>
 	    <artifactId>gSTAX</artifactId>
-	    <version>c971d1d</version>
+	    <version>v0.0.1</version>
 	</dependency>
 	
 	</dependencies>
