@@ -8,6 +8,8 @@
    <maven.compiler.source>1.8</maven.compiler.source>
    <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	
+
 
   <repositories>
 		<repository>
@@ -19,9 +21,9 @@
 	<dependencies>
 
 	<dependency>
-	    <groupId>com.gSTAX</groupId>
+	    <groupId>com.github.georgescaria</groupId>
 	    <artifactId>gSTAX</artifactId>
-	    <version>v0.0.1</version>
+	    <version>a37a86e</version>
 	</dependency>
 	
 	</dependencies>

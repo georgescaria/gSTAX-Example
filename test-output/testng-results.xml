@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50975" started-at="2020-11-04T19:36:14Z" finished-at="2020-11-04T19:37:05Z">
+  <suite name="Suite" duration-ms="54127" started-at="2020-11-04T20:09:53Z" finished-at="2020-11-04T20:10:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50975" started-at="2020-11-04T19:36:14Z" finished-at="2020-11-04T19:37:05Z">
+    <test name="Test" duration-ms="54127" started-at="2020-11-04T20:09:53Z" finished-at="2020-11-04T20:10:47Z">
       <class name="com.gSTAX.Setup.CreateXML">
-        <test-method status="PASS" signature="runTestNGTest()[pri:0, instance:com.gSTAX.Setup.CreateXML@27f674d]" name="runTestNGTest" duration-ms="50955" started-at="2020-11-05T01:06:14Z" finished-at="2020-11-05T01:07:05Z">
+        <test-method status="PASS" signature="runTestNGTest()[pri:0, instance:com.gSTAX.Setup.CreateXML@2133c8f8]" name="runTestNGTest" duration-ms="54109" started-at="2020-11-05T01:39:53Z" finished-at="2020-11-05T01:40:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTestNGTest -->
