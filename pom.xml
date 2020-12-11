@@ -21,9 +21,9 @@
 	<dependencies>
 
 	<dependency>
-	    <groupId>com.github.georgescaria</groupId>
+	    <groupId>com.gSTAX</groupId>
 	    <artifactId>gSTAX</artifactId>
-	    <version>a37a86e</version>
+	    <version>v0.0.1</version>
 	</dependency>
 	
 	</dependencies>

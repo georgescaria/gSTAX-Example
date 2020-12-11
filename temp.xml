@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TC_14">
+    <parameter name="TC_ID" value="TC_14"/>
+    <parameter name="URL" value="https://google.com"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.gSTAX.Setup.InitialSetup"/>
+      <class name="com.gSTAX.Tests.Website"/>
+    </classes>
+  </test> <!-- TC_14 -->
+  <test name="TC_15">
+    <parameter name="TC_ID" value="TC_15"/>
+    <parameter name="URL" value="https://www.linkedin.com/in/george-scaria/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.gSTAX.Setup.InitialSetup"/>
+      <class name="com.gSTAX.Tests.Website"/>
+    </classes>
+  </test> <!-- TC_15 -->
+  <test name="TC_16">
+    <parameter name="TC_ID" value="TC_16"/>
+    <parameter name="URL" value="https://www.linkedin.com/in/george-scaria/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.gSTAX.Setup.InitialSetup"/>
+      <class name="com.gSTAX.Tests.Website"/>
+    </classes>
+  </test> <!-- TC_16 -->
+</suite> <!-- Suite -->
