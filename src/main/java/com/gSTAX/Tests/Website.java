@@ -20,6 +20,7 @@ public class Website extends InitialSetup
         Report.fail(TC_ID, "Fail test step with log");
         Report.failWithScreenshot(TC_ID);
         Report.failWithScreenshot(TC_ID, "Fail test step with screenshot and log");
+        driver.close();
     }
 }
 

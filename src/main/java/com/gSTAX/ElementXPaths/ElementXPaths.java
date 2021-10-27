@@ -15,5 +15,7 @@ public class ElementXPaths
 	public static String cart = "//a[@href='/cart']";
 	public static String wishlist = "//a[@href='/wishlist']";
 	public static String email = "//a[@href='/login']";
+	
+	public static String ustResult = "//h3[text()='UST Digital Transformation Solutions Company']";
 }
 

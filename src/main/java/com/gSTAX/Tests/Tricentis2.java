@@ -1,27 +1,35 @@
 package com.gSTAX.Tests;
 
+import java.io.BufferedReader;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 
 import org.testng.annotations.Test;
+import org.w3c.dom.Document;
 
 import com.gSTAX.ElementXPaths.ElementXPaths;
-import com.gSTAX.Setup.InitialSetup;
 import com.gSTAX.Utilities.Report;
 import com.gSTAX.Utilities.ElementActions;
 
 public class Tricentis2 extends ElementXPaths
 {
 	ElementActions action = new ElementActions();
+	WebDriver driver;
 	
 	@Parameters({ "TC_ID"})
 	@Test       
-    public void WebsiteTest(String TC_ID) throws Exception
+    public void WebsiteTest(String TC_ID) throws Exception 
     {
-		Report.takeScreenshot(TC_ID, "Take screenshot with Log");
-        Report.passWithScreenshot(TC_ID, "Pass test step with screenshot and log");
-        
-        for(int i=0; i<5; i++)
+		driver = action.getDriver(TC_ID);
+		
+    	for(int i=0; i<2; i++)
         {
         	action.click(TC_ID, books, "books");
         	action.waitUntilDisplayed(TC_ID, books);
@@ -35,6 +43,9 @@ public class Tricentis2 extends ElementXPaths
         	action.waitUntilDisplayed(TC_ID, jewelry);
         	action.click(TC_ID, giftcards, "giftcards");
         	action.waitUntilDisplayed(TC_ID, giftcards);
+        	action.checkDropDownValues(TC_ID, TC_ID, TC_ID);
+        	
+        	
         }
         
     }

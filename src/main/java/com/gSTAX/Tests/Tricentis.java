@@ -1,5 +1,6 @@
 package com.gSTAX.Tests;
 
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Parameters;
 
@@ -21,7 +22,7 @@ public class Tricentis extends ElementXPaths
 		Report.takeScreenshot(TC_ID, "Take screenshot with Log");
         Report.passWithScreenshot(TC_ID, "Pass test step with screenshot and log");
         
-        for(int i=0; i<5; i++)
+        for(int i=0; i<2; i++)
         {
         	action.click(TC_ID, register, "register");
         	action.waitUntilDisplayed(TC_ID, register);
